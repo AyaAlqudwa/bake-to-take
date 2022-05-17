@@ -1,0 +1,406 @@
+/*----------------Start Upper-bar----------------------*/
+.upper-bar {
+  background: linear-gradient(to right, #f29898, #8dcaff, #d19fe4);
+}
+.upper-bar i,
+span {
+  padding: 15px;
+} 
+/*----------------Start Nav-bar----------------------*/
+.nav-bar {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #f1f2f6;
+}
+.nav-bar li {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+/*-------------------------------------Start Home Page-------------------------------*/
+
+/*----------------Start Main Background Image----------------------*/
+.main-backgroundimage {
+  background-image: url("../imgs/background/background7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  position: relative;
+}
+.main {
+  height: 70vh;
+}
+.main-backgroundimage span {
+  font-family: "Dancing Script", cursive;
+  font-size: 100px;
+  top: 30%;
+}
+
+/*----------------Start home-div-About----------------------*/
+.home-div-About {
+  margin-top: 100px;
+}
+.home-div-About p {
+  font-size: 23px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+}
+
+/*----------------Start Advantages----------------------*/
+.Advantages {
+  background-color: #f1f2f6;
+  height: 20rem;
+}
+.Advantagescard {
+  margin-top: 4rem;
+}
+.Advantagescard h5 {
+  font-family: "Lobster", cursive;
+}
+
+/*----------------Start Cake Rating----------------------*/
+.CakeRating {
+  margin-top: 8rem;
+}
+.CakeRating h4 {
+  color: #f8a5c2;
+}
+.CakeRating h1 {
+  font-family: "Lobster", cursive;
+}
+.CakeRating p {
+  color: rgb(141, 137, 137);
+  font-size: 18px;
+}
+.CakeRating label {
+  font-weight: bold;
+}
+
+/*----------------Start  Passing word----------------------*/
+.Passingword {
+  margin-top: 8rem;
+  position: relative;
+}
+.Passingword img {
+  height: 25rem;
+  width: 100%;
+  opacity: 0.6;
+  position: relative;
+  z-index: 1;
+}
+
+.Passingword h1 {
+  top: 10rem;
+  left: 15rem;
+  z-index: 5;
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/*----------------Start  Follow us-home----------------------*/
+.Followus-home {
+  margin-top: 8rem;
+}
+.Followus-home h4 {
+  color: #f8a5c2;
+  font-size: 35px;
+}
+.Followus-home h1 {
+  font-family: "New Tegomin", serif;
+  font-size: 4rem;
+}
+.img1 {
+  height: 30px;
+  width: 30px;
+}
+.Followus-home h6 {
+  color: rgb(141, 137, 137);
+}
+.imgs {
+  height: 13rem;
+  width: 11rem;
+  margin: 16px;
+}
+.item2,
+.item5 {
+  margin-top: 4rem;
+}
+/*----------------Start  Footer----------------------*/
+.footer {
+  margin-top: 8rem;
+  position: relative;
+  background-image: url("../imgs/background/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+}
+.main2 {
+  height: 70vh;
+}
+
+.Working-Hours,
+.Brand,
+.Subscribe {
+  margin-top: 6rem;
+}
+
+.footer h3 {
+  font-weight: bold;
+}
+.footer p {
+  font-size: 19px;
+}
+.footer form input {
+  height: 50px;
+  width: 90%;
+  padding-left: 22px;
+  background: rgba(59, 59, 58, 0.2);
+  border: black;
+  color: #ffffff;
+  font-size: 14px;
+  border: black;
+}
+.footer form button {
+  font-size: 20px;
+  color: black;
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 4rem;
+  top: 110px;
+}
+/*----------------Start copyright ----------------------*/
+.copyright {
+  height: 2rem;
+  background-color: black;
+  width: 100%;
+  position: relative;
+}
+.copyright h6 {
+  font-weight: bold;
+  color: white;
+}
+/*-------------------------------Start Cake Page and Art----------------------------------*/
+/*----------------Start Main Cake and panels Page 1 ----------------------*/
+.main-cake-panels-page1 {
+  margin-top: 5rem;
+}
+.main-cake-panels-page1 h2 img {
+  height: 19px;
+  width: 145px;
+}
+
+/*----------------Start Main Cake Page 2 ----------------------*/
+.main-cake-panels-page2 {
+  margin-top: 5rem;
+}
+.search {
+  margin-bottom: 4rem;
+}
+.dropdown-1 {
+  margin-left: 45rem;
+}
+.card {
+  height: 22rem;
+  width: 259px;
+  margin: 20px;
+}
+.card-img-top {
+  height: 12rem;
+}
+.star-rating {
+  height: 43px;
+  width: auto;
+}
+
+/*--------------------Start Pagination ----------------------*/
+.Pagination {
+  margin-top: 5rem;
+}
+/*-------------------------------Start Contact Page ---------------------------------*/
+/*-------------------------Start Form------------------------*/
+.form {
+  margin-top: 5rem;
+  position: relative;
+  height: 50rem;
+  z-index: 1;
+}
+.form-wrapper{
+    background-image: url('../imgs/background/shape23.png');
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 46rem;
+    width: 33rem;
+}
+.img-from-top{
+  z-index: -1;
+  position: absolute;
+  right: 30rem ;
+  top: 1rem;
+}
+.img-from-bottom{
+  z-index: -1;
+  position: absolute;
+  left: 33rem ;
+  top: 10rem;
+}
+.form-wrapper h2{
+  margin-top: 5rem;
+}
+ .form-group,.btn{
+   margin-bottom: 5rem;
+ }
+
+ /*-------------------------Start helpandsupport------------------------*/
+ .helpandsupport{
+   margin-top: 5rem;
+   height: 35rem;
+ }
+ /*---------------------demo----------------------*/
+ #demo1,#demo2,#demo3{
+   color: red;
+ }
+  
+
+
+/* @media(min-width:567px) sm  يعني ان اقل عرض تصل الشاشات الصغيرة*/
+/* @media(min-width:768px) md   يعني ان اقل عرض تصل الشاشات المتوسطة*/
+/* @media(min-width:992px) lg   يعني ان اقل عرض تصل له الشاشات الكبيرة*/
+/* @media(min-width:1200px) xlg  يعني ان اقل عرض تصل له الشاشات ذات الحجم الكبير جدا  */
+/*-------------------------start media--------------------------*/
+
+@media (min-width: 768px) {
+  .social-media {
+    text-align: end;
+  }
+  .main-backgroundimage span {
+    top: 30%;
+  }
+  .CakeRating input {
+    width: 23rem;
+  }
+  .percent1 {
+    margin-left: 20rem;
+  }
+  .percent2 {
+    margin-left: 15rem;
+  }
+  .percent3 {
+    margin-left: 18rem;
+  }
+  .Passingword h1 {
+    left: 8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .upper-bar i,
+  .contactaddres {
+    padding: 10px;
+  }
+  .logo {
+    height: 80px;
+    width: 80px;
+  }
+  .spannavbar {
+    display: none;
+  }
+  .main-backgroundimage span {
+    font-size: 120px;
+    top: 0%;
+  }
+  .Advantages {
+    height: 60rem;
+  }
+  .CakeRating input {
+    width: 19rem;
+  }
+  .Passingword h1 {
+    left: 8rem;
+    top: 8rem;
+  }
+  .imgs {
+    margin: 25px;
+    width: 11rem;
+  }
+  .footer form button {
+    right: 2rem;
+    top: 140px;
+  }
+  .dropdown-1 {
+    margin-left: 10rem;
+  }
+  .img-from-top,.img-from-bottom{
+    display: none;
+  }
+  .form-wrapper{
+    width: 22rem;
+    height: 55rem;
+  }
+  .helpandsupport{
+    height: 35rem;
+  }
+}
+
+@media (width: 768px) {
+  .main-backgroundimage span {
+    top: 30%;
+  }
+  .Advantages {
+    height: 20rem;
+  }
+  .form-wrapper{
+    height: 45rem;
+    width: 33rem;
+  }
+}
+
+@media (max-width: 567px) {
+  .logo {
+    height: 70px;
+    width: 70px;
+  }
+  .main-backgroundimage span {
+    font-size: 80px;
+  }
+  .Passingword h1 {
+    left: 5rem;
+    top: 5rem;
+  }
+  .imgs {
+    margin: 13px;
+    width: 9rem;
+  }
+  .footer {
+    height: 110vh;
+  }
+  .footer form button {
+    right: 3rem;
+    top: 115px;
+  }
+  .helpandsupport{
+    height: 50rem;
+  }
+  .form-wrapper{
+   background-image: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .nameofbrand {
+    display: none;
+  }
+  .main-backgroundimage span {
+    font-size: 120px;
+  }
+  .CakeRating input {
+    width: 30rem;
+  }
+  .Passingword h1 {
+    left: 15rem;
+  }
+}
